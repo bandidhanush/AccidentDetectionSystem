@@ -38,7 +38,7 @@ void loop() {
     digitalWrite(Buzzer, HIGH);
     delay(5000);  // Buzzer rings for 5 seconds
 
-    sendCallAndLocation("8977788193", "Emergency! Need help at Loc: DSU");
+    sendCallAndLocation("Enter your phone number without country code", "Emergency! Need help at Loc: DSU");
     Serial.println("CALL AND MESSAGE SENT EMERGENCY");
     lcd.print("Accident Alert!!!");
   } else {
@@ -48,7 +48,7 @@ void loop() {
   // --------------------------Emergency Button------------------------
   if (digitalRead(emergency) == HIGH) {
     if (q == 0) {
-      sendCallAndLocation("8977788193", "Emergency Alert!");
+      sendCallAndLocation("Enter your phone number without country code", "Emergency Alert!");
       Serial.println("CALL AND MESSAGE SENT EMERGENCY");
       lcd.clear();
       lcd.print("Emergency Alert!!!");
