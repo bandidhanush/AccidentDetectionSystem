@@ -25,7 +25,9 @@ This project was built using these technologies.
 - Jumper Wires
 
 ### Overall Project View
+![alt text](https://github.com/bandidhanush/AccidentDetectionSystem/blob/main/D.jpg?raw=true)
 ![alt text](https://github.com/bandidhanush/AccidentDetectionSystem/blob/main/A.jpg?raw=true)
+
 
 ### GSM SIM800A
 ![alt text](https://github.com/bandidhanush/AccidentDetectionSystem/blob/main/B.jpg?raw=true)
@@ -37,6 +39,7 @@ This project was built using these technologies.
 - Before running the AccidentDetectionSystem.INO file make sure install all the required libriaries 
 - Make sure all the connections are properly made to the Arduino Uno R3 board  
 - The connection labels are commented in the code make sure you follow those connection else code as per your connections
+- **NOTE:** The rover_bt_control.ino is a bluetooth operated Rover Bot which acts like a car for this project 
 
 ## For detailed Video Demo of Project 
 ```Click on YouTube Icon```
